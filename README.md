@@ -1,3 +1,12 @@
+# Контейнер для сбора информации о контейнерах через collectd
+
+Основан на https://github.com/bobrik/collectd-docker
+
+# История версий
+
+* bobrik/collectd-docker:0.4.1 (старая, есть бага - максимум 63 символа в collectd_docker_app )
+* hub.core.tf:1 - новая
+
 # Collect docker container resource usage
 
 This is collectd plugin and docker image to collect resource usage from docker
